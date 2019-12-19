@@ -1,3 +1,6 @@
+.index-port{
+    display: flex; justify-content: space-between;
+}
 hr.new{
     border-top: 2px solid black;
     width: 10%;
@@ -271,7 +274,7 @@ color: rgb(83, 83, 83);
     /* border:1px solid black; */
     background: white;
     border-radius: 20px;
-    width: 50%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -339,6 +342,11 @@ button {
 
 
 @media screen and (max-width: 800px) {
+
+    .index-port{
+        display: block;
+        justify-content: space-between;
+    }
 
     .pfolio-btn{
         background: white; 
@@ -417,7 +425,7 @@ button {
         color: #143374;
     }
     .co_logo {
-        width: 40%;
+        width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -459,7 +467,7 @@ button {
     padding-top: 25%;
 }
     .co_logo {
-        width: 40%;
+        width: 80%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -576,7 +584,7 @@ button {
         color: #143374;
     }
     .co_logo {
-        width: 40%;
+        width: 50%;
         height: auto;
         display: block;
         margin: 0 auto;
