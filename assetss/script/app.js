@@ -10,6 +10,9 @@ let apast_con= document.getElementById("apastCon");
 let apast_con2= document.getElementById("apastCon2");
 let apast_con3= document.getElementById("apastCon3");
 
+let namee = "";
+let maill = "";
+
 function checkScroll(){
   var startY = $('.navbar').height() * 5; //The point where the navbar changes in px
 
@@ -71,4 +74,10 @@ function port_past(){
 
 function img(){
   window.location.href = "index.html";
+}
+
+
+function onPress(x,y){
+console.log(x);
+console.log(y);
 }
