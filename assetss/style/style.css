@@ -1,0 +1,639 @@
+hr.new{
+    border-top: 2px solid black;
+    width: 10%;
+    
+}
+hr.new2{
+    border-top: 2px solid black;
+    width: 20%;
+}
+
+.pfolio-btn{
+    background: white; color: black; font-size: 18px; letter-spacing: 5px;  
+    border-radius: 50px;  border: 2px solid #0d3960;
+}
+::placeholder {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+   font-weight: bold;
+   text-align: center;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+   font-weight: bold;
+   text-align: center;
+  }
+
+body::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.port-head{
+    padding-top: 15%;
+}
+
+.port-btn{
+    
+}
+.about-heading-btn {
+    width: 80%;
+}
+.about-btn{
+    padding-top: 15%;
+}
+.main-head{
+    margin-top: 14%; color: white; font-weight: bolder; text-align: center;
+}
+.co-logo-manager {
+    background: white;
+    border-radius: 20px;
+}
+
+.ico-manager {
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+}
+
+.res-about {
+    line-height: 40px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.down {
+    width: 35px;
+}
+
+.navbar {
+    box-shadow: none;
+    
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+   
+}
+
+.navbar.nshadow {
+    box-shadow: -2px 4px 20px 0px #000000; 
+}
+
+.heading-btn {
+    width: 40%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    position: relative;
+    top: -0px;
+    font-weight: bold;
+    color: black;
+}
+
+.head {
+    position: fixed;
+    background: #0d3960;
+    height: auto;
+    width: 100%;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+section {
+    width: auto;
+    height: 100%;
+}
+
+.head.scrolled {
+    background: rgb(13, 56, 97);
+    /* IE */
+    background: rgba(13, 56, 97);
+    /* NON-IE */
+}
+
+.logo {
+    width: auto;
+    position: relative;
+    top: -13px;
+    text-align: center;
+    margin: auto 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #143374;
+    
+}
+
+.logo-res {
+    width: 7%;
+}
+
+.navItems {
+    height: auto;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+li {
+    float: left;
+    
+}
+
+
+li a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 22px;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+li a:hover {
+    background-color: white;
+    /* color: brown; */
+    text-shadow: none;
+    text-decoration: none;
+}
+/* 
+a:hover{
+width: 10%;
+color: rgb(83, 83, 83);
+} */
+
+.unhide {
+    visibility: hidden;
+    display: none;
+}
+
+.res-h1 {
+    font-size: auto;
+}
+
+.res-h2 {
+    font-size: auto;
+}
+
+.res-h3 {
+    font-size: auto;
+}
+
+.res-h4 {
+    font-size: auto;
+}
+
+.res-h5 {
+    font-size: auto;
+}
+
+.res-p {
+    font-size: auto;
+}
+
+.sidenav {
+    opacity: 0.8;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* #dba921 */
+
+.sidenav a {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    padding: 22px;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    opacity: 0.8;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+
+.co_logo {
+    /* border:1px solid black; */
+    background: white;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.co_logo-div {
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.foot-center {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: white;
+    /* Green */
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-viewAll {
+    border-radius: 100px;
+    width: 25%;
+    height: auto;
+    margin-top: 80px;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+
+.btn-viewAll:hover {
+    border: 1px solid white;
+    background: #0d3960;
+    color: white;
+}
+
+.res-acv {
+    padding: 10px;
+    width: 30%;
+}
+
+.spl-btn {
+    width: 50%;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- W I D T H -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+@media screen and (max-width: 800px) {
+
+    .pfolio-btn{
+        background: white; 
+        color: black; 
+        font-size: 12px;
+        letter-spacing: 2px;  
+        border-radius: 50px;  
+        border: 2px solid #0d3960;
+    }
+    
+.port-head{
+    padding-top: 20%;
+}
+
+.about-btn{
+    padding-top: 20%;
+}
+.main-head{
+    margin-top: 40%; color: white; font-weight: bolder; text-align: center;
+}
+
+    .co-logo-manager {
+        background: white;
+        border-radius: 20px;
+    }
+    .heading-btn {
+        width: 50%;
+    }
+    .spl-btn {
+        width: 70%;
+    }
+    .logo-res {
+        width: 12%;
+    }
+    .sidenav {
+        padding-top: 30%;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    li {
+        /* visibility: hidden; */
+        display: none;
+    }
+    .unhide {
+        position: relative;
+        top: -10px;
+        visibility: visible;
+        display: block;
+    }
+    .res-h1 {
+        font-size: 30px;
+    }
+    .res-h2 {
+        font-size: 25px;
+    }
+    .res-h3 {
+        font-size: 20px;
+    }
+    .res-h4 {
+        font-size: 20px;
+    }
+    .res-h5 {
+        font-size: 15px;
+    }
+    .res-p {
+        font-size: 5px;
+    }
+    .logo {
+        width: auto;
+        position: relative;
+        top: -19px;
+        margin: auto 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #143374;
+    }
+    .co_logo {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn-viewAll {
+        border-radius: 100px;
+        width: 45%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .heading {
+        font-weight: bold;
+        color: black;
+    }
+    .res-map {
+        width: 300px;
+    }
+    .res-acv {
+        padding-top: 15%;
+        width: 80%;
+    }
+    
+.about-heading-btn {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+.port-head{
+    padding-top: 25%;
+}
+
+.about-heading-btn {
+    width: 105%;
+}
+.about-btn{
+    padding-top: 25%;
+}
+    .co_logo {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .res-acv {
+        padding-top: 35%;
+        width: 80%;
+    }
+    .res-about {
+        line-height: 30px;
+        padding-left: 0px;
+    }
+    .logo {
+        width: auto;
+        position: relative;
+        top: -20px;
+        text-align: center;
+        margin: auto 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: #143374;
+    }
+    .foot-center {
+        display: block;
+        margin: 0 auto;
+        padding: 10%;
+    }
+
+     
+.main-head{
+    margin-top: 60%; color: white; font-weight: bolder; text-align: center;
+}
+
+.logo-res{
+    width: 10%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    
+.about-heading-btn {
+    width: 100%;
+}
+    .res-about {
+        line-height: 35px;
+        padding-left: 0px;
+    }
+    .res-acv {
+        padding-top: 30%;
+        width: 80%;
+    }
+
+    
+    
+.main-head{
+    margin-top: 40%; color: white; font-weight: bolder; text-align: center;
+}
+
+    .co-logo-manager {
+        background: white;
+        border-radius: 20px;
+    }
+    .heading-btn {
+        width: 80%;
+    }
+    .spl-btn {
+        width: 70%;
+    }
+    .logo-res {
+        width: 15%;
+    }
+    .sidenav {
+        padding-top: 50%;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    li {
+        /* visibility: hidden; */
+        display: none;
+    }
+    .unhide {
+        position: relative;
+        top: -10px;
+        visibility: visible;
+        display: block;
+    }
+    .res-h1 {
+        font-size: 30px;
+    }
+    .res-h2 {
+        font-size: 25px;
+    }
+    .res-h3 {
+        font-size: 20px;
+    }
+    .res-h4 {
+        font-size: 20px;
+    }
+    .res-h5 {
+        font-size: 15px;
+    }
+    .res-p {
+        font-size: 5px;
+    }
+    .logo {
+        width: auto;
+        position: relative;
+        top: -19px;
+        margin: auto 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #143374;
+    }
+    .co_logo {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .btn-viewAll {
+        border-radius: 100px;
+        width: 45%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .heading {
+        font-weight: bold;
+        color: black;
+    }
+    .res-map {
+        width: 300px;
+   
+}
+
+
+@media screen and (max-width: 400px) {
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!- H E I G H T -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* @media screen and (max-height: 500px) {
+
+.head{
+    height: 13%;
+}
+
+}
+
+
+@media screen and (max-height: 400px) {
+
+.head{
+    height: 16%;
+}
+
+}
+
+
+@media screen and (max-height: 300px) {
+
+    .head{
+        height: 18%;
+    }
+    
+    }
+
+    
+@media screen and (max-height: 250px) {
+
+    .head{
+        height: 23%;
+    }
+    
+    } */

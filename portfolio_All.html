@@ -1,0 +1,652 @@
+<html>
+
+<head>
+    <title>Amity Innovation Incubator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="assetss/style/style.css" rel="stylesheet" type="text/css">
+    <link href="assetss/style/animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.localscroll.js" type="text/javascript"></script>
+    <script src="jquery.scrollTo.js" type="text/javascript"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" onscroll="checkScroll()"
+    style="font-family: 'Playfair Display', serif; background:white ">
+
+    <div class="head" style="z-index: 5;">
+        <div id="topBar" class="navbar" style="height: auto;">
+            <!-- <p class="logo">AMITY CAPITAL VENTURES</p> -->
+            <img onclick="img()" src="assetss/image/acv.png" class="logo-res">
+            <div class="navItems">
+                <ul>
+
+                    <li><a href="about.html">PHILOSOPHY</a></li>
+                    <li><a href="portfolio_All.html">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li style=" width: auto; height: auto;" class="unhide">
+                        <a onClick=openNav()><i class="material-icons navbtn"
+                                style="color: white; width: 100%; height: 100%;">menu</i></a></li>
+
+
+
+                </ul>
+
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="about.html">PHILOSOPHY</a>
+                    <a href="portfolio_All.html">PORTFOLIO</a>
+                    <a href="#contact">CONTACT US</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <div style=" height: auto; 
+ padding-right: 12%; padding-left: 12%; text-align: center; font-weight: bold; background: white;" class="port-head">
+        <h2 class="res-h2 heading">OUR INVESTMENT PORTFOLIO<span
+                style="position: relative; top: -10px; font-size:20px; transform: scale(.5, 1);">&#42;</span> <br><br>
+            STRONG TEAMS | SCALE-UP COMPANIES | IMPACT MAKERS</h2>
+    </div>
+
+    <div style="display: flex; margin-top: 70px;">
+        <div style="margin: 0 auto;">
+            <button id="all" onclick="port_all()" class="pfolio-btn">
+                All
+            </button>
+            <button id="active" onclick="port_active()"  class="pfolio-btn">
+                Active
+            </button>
+            <button id="past" onclick="port_past()"  class="pfolio-btn">
+                Past
+            </button>
+        </div>
+    </div>
+
+    <section style="padding: 5%; width: 100%; height: auto;  background: white;">
+        <div class="container-fluid" style="padding-top:100px; background: #0d3960; border-radius: 25px;">
+            <div id="activeCon">
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Activity_Hero.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- ActivityHero -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Biziga.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Biziga Solutions -->
+                        </h4>
+
+                    </div>
+
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Box8.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Box8 -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Circuit Sutra.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Circuit Sutra -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/FreshWorld.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Fresh World -->
+                        </h4>
+
+
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/GVC_Systems.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- GVC Systems -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/goCoop.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- goCoop -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <!-- <div class="ico-manager"> -->
+                        <image class="co_logo" src="assetss/image/co_logo/Hashtag.png"></image>
+                        <!-- </div> -->
+                        <h4 class="res-h4  txt-center">
+                            <!-- Hashtag -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <!-- <div class="ico-manager"> -->
+                        <image class="co_logo" src="assetss/image/co_logo/Hospals.png"></image>
+                        <!-- </div> -->
+                        <h4 class="res-h4  txt-center">
+                            <!-- Hospals -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Infinity_Assurance.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Infinity Assurance -->
+
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/ITCONS.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- ITCONS -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Law_Rato.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Law Ratio -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Lets_Venture.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Lets Venture -->
+
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Loudcell.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Loudcell -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <image class="co_logo" src="assetss/image/co_logo/Marksman.png"></image>
+
+                        <h4 class="res-h4  txt-center">
+                            <!-- Marksman -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Mere_Exams.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Mere Exam -->
+
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Novasys_Labs.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Novasys Labs -->
+
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+
+                        <image class="co_logo" src="assetss/image/co_logo/Placio.png"></image>
+
+                        <h4 class="res-h4  txt-center">
+                            <!-- Placio -->
+                        </h4>
+                    </div>
+
+                </div>
+
+
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Process9.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Process9 -->
+
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/QwikDealz.jpg"></image>
+                        </div>
+                        <h4 class="re-h4  txt-center">
+                            <!-- QwikDealz -->
+
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Ritsan_Media.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Ritsan Media -->
+                        </h4>
+                    </div>
+
+                </div>
+
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <image class="co_logo" src="assetss/image/co_logo/RoadHouse_Hostels.png"></image>
+
+                        <h4 class="res-h4 txt-center">
+                            <!-- RoadHouse Hostels -->
+
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Sensibol.png"></image>
+                        </div>
+                        <h4 class="re-h4  txt-center">
+                            <!-- Sensibol -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Skillenza.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Skillenza -->
+                        </h4>
+                    </div>
+
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/SmartVizx.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- SmartVizx -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+
+                        <image class="co_logo" src="assetss/image/co_logo/Smursh_Media.png"></image>
+
+                        <h4 class="re-h4  txt-center">
+                            <!-- Smursh Media -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/TranScell_Biologics.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- TranScell_Biologics -->
+                        </h4>
+                    </div>
+
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <image class="co_logo" src="assetss/image/co_logo/Uncanny_Vision.png"></image>
+
+                        <h4 class="res-h4 txt-center">
+                            <!-- Uncanny Vision -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+
+                        <image class="co_logo" src="assetss/image/co_logo/Vitas_Pharma.png"></image>
+
+                        <h4 class="re-h4  txt-center">
+                            <!-- Vitas Pharma -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Wishberry.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Wishberry -->
+                        </h4>
+                    </div>
+
+                </div>
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/ZipZap.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- ZipZap -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+<div id="apastCon2">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Ambio_Research.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Ambio Research -->
+                        </h4>
+                    </div>
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                            <div id="apastCon3">
+                        <image class="co_logo" src="assetss/image/co_logo/Anduril_technologies.jpg"></image>
+
+                        <h4 class="re-h4  txt-center">
+                            <!-- Anduril Technologies -->
+                        </h4>
+</div>
+                    </div>
+
+                </div>
+                <!-- ||||||||||||||||||| APAST_CON -->
+                <div id="apastCon">
+
+                    <div class="row">
+
+
+                        <div class="col-sm-4">
+                            <div>
+                                <image class="co_logo" src="assetss/image/co_logo/Heuristics.JPG"></image>
+                            </div>
+                            <h4 class="res-h4  txt-center">
+                                <!-- Heuristics -->
+                            </h4>
+                        </div>
+                        <div class="col-sm-4">
+
+
+                                <image class="co_logo" src="assetss/image/co_logo/kinetic_Media.png"></image>
+
+                                <h4 class="res-h4 txt-center">
+                                    <!-- Kinetic Media -->
+                                </h4>
+
+
+                        </div>
+                        <div class="col-sm-4" col-md-4>
+                                <image class="co_logo" src="assetss/image/co_logo/MangoReader.png"></image>
+
+                                <h4 class="re-h4  txt-center">
+                                    <!-- MangoReader -->
+                                </h4>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+
+
+                        <div class="col-sm-4">
+                                <div>
+                                        <image class="co_logo" src="assetss/image/co_logo/Mukunda_Foods.png"></image>
+                                    </div>
+                                    <h4 class="res-h4  txt-center">
+                                        <!-- Mukunda Foods -->
+                                    </h4>
+                        </div>
+                        <div class="col-sm-4">
+
+
+                                <image class="co_logo" src="assetss/image/co_logo/Nityaa_Labs.png"></image>
+
+                                <h4 class="res-h4 txt-center">
+                                    <!-- Nityaa Labs -->
+                                </h4>
+
+                        </div>
+                        <div class="col-sm-4" col-md-4>
+                                <div>
+                                        <image class="co_logo" src="assetss/image/co_logo/RFIC_Solutions.png"></image>
+                                    </div>
+                                    <h4 class="re-h4  txt-center">
+                                        <!-- RFIC Solutions -->
+                                    </h4>
+                        </div>
+
+
+                    </div>
+
+                 
+                    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ==== PAST -->
+                </div>
+
+
+            </div>
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ==== PAST -->
+            <div id="pastCon" style="display: none;">
+
+                <div class="row">
+
+
+                    <div class="col-sm-4">
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Ambio_Research.png"></image>
+                        </div>
+                        <h4 class="res-h4 txt-center">
+                            <!-- Ambio Research -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+
+                        <image class="co_logo" src="assetss/image/co_logo/Anduril_technologies.jpg"></image>
+
+                        <h4 class="re-h4  txt-center">
+                            <!-- Anduril Technologies -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Heuristics.JPG"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Heuristics -->
+                        </h4>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+
+                    <div class="col-sm-4">
+
+                        <image class="co_logo" src="assetss/image/co_logo/kinetic_Media.png"></image>
+
+                        <h4 class="res-h4 txt-center">
+                            Kinetic Media
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+
+                        <image class="co_logo" src="assetss/image/co_logo/MangoReader.png"></image>
+
+                        <h4 class="re-h4  txt-center">
+                            <!-- MangoReader -->
+                        </h4>
+
+                    </div>
+                    <div class="col-sm-4" col-md-4>
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/Mukunda_Foods.png"></image>
+                        </div>
+                        <h4 class="res-h4  txt-center">
+                            <!-- Mukunda Foods -->
+                        </h4>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+
+                    <div class="col-sm-4">
+                        <image class="co_logo" src="assetss/image/co_logo/Nityaa_Labs.png"></image>
+
+                        <h4 class="res-h4 txt-center">
+                            <!-- Nityaa Labs -->
+                        </h4>
+                    </div>
+                    <div class="col-sm-4">
+
+
+                        <div>
+                            <image class="co_logo" src="assetss/image/co_logo/RFIC_Solutions.png"></image>
+                        </div>
+                        <h4 class="re-h4  txt-center">
+                            <!-- RFIC Solutions -->
+                        </h4>
+
+
+                    </div>
+
+                </div>
+                <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ==== PAST -->
+            </div>
+
+        </div>
+        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+        <div style="width: 100%; ">
+
+            <p style=" margin-top:5%; font-size: 12px; text-align: center;" class="center">&#42;
+                The portfolio represents investments made by Amity Capital Ventures, Amity Technology Incubator and
+                family office.</p>
+
+        </div>
+
+    </section>
+
+
+
+    <div style="height: 20%;">
+
+    </div>
+
+
+    <div style="background: black; height: 5%;">
+
+    </div>
+
+
+    <script src="assetss/script/app.js"></script>
+
+</body>
+
+</html>
