@@ -1,3 +1,9 @@
+.port-ico{
+    width: 80%; display: block; margin: 0 auto; background: white; border-radius: 25px;
+}
+.res-h6{
+    font-size: 16px;
+}
 .index-port{
     display: flex; justify-content: space-between;
 }
